@@ -1,5 +1,17 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-size: 16px;
+}
+
 h1{
     text-align: center;
-    color:red;
-    text-transform: uppercase;
+    font-size: 3.8rem;
+} 
+
+/* ya no se recomienda utilizar px para el tamño del texto, se recomienda usar REM */
+/* EM toma el tamaño basado en el tamaño que viene por defecto de la etiqueta contenedora padre, se actualiza segun se le cambie a los padres */
+span{
+    font-size: 2rem;  
 }
