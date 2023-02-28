@@ -1,17 +1,38 @@
-html{
-    font-size: 62.5%;
-}
-body{
-    font-size: 16px;
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
 }
 
-h1{
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+}
+
+.titulo {
     text-align: center;
     font-size: 3.8rem;
 } 
 
-/* ya no se recomienda utilizar px para el tamño del texto, se recomienda usar REM */
-/* EM toma el tamaño basado en el tamaño que viene por defecto de la etiqueta contenedora padre, se actualiza segun se le cambie a los padres */
-span{
+.titulo span {
     font-size: 2rem;  
 }
+
+.contenedor {
+    width: 120rem;
+    margin: 0 auto;
+}
+
+.nav-bg {
+    background-color: var(--secundario);
+}
+
+.navegacion-principal {
+    
+}
+
